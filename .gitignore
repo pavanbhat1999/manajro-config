@@ -1,6 +1,9 @@
 Documents/
 Downloads/
 .config/*
+!.config/awesome/
+!.config/alacritty/
+!.config/bspwm/
 .anydesk/
 .Xauthority
 .cache/
