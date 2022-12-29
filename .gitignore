@@ -4,3 +4,5 @@
 # But not these files...
 !*.zshrc
 !.gitignore
+!awesomewm.sh
+!*.config/
