@@ -1,0 +1,73 @@
+; ---
+; Lucy's Dotfiles
+; https://github.com/lucyy-mc/dotfiles
+; ---
+;
+; Polybar config
+
+; Set colour variables
+[col]
+bg = #d92b2b2b
+fg = #ffffff
+sel = #99b8ff
+
+; Base bar that others inherit from
+[bar/common]
+background = ${col.bg}
+height = 26
+offset-x = 12
+offset-y = 12
+
+; make positioning work with i3. this needs some working around when using multiple monitors
+override-redirect = true
+wm-restack = i3
+
+; border with radius to match i3
+radius = 8
+border-size = 2
+border-color = #192133
+
+; everything from here on is self explanatory
+
+font-0 = Work Sans:size=11;3
+font-1 = FluentSystemIcons\-Regular:size=12;5 
+
+module-margin = 2
+padding = 1
+
+[bar/left]
+inherit = bar/common
+width = 400px
+modules-left = i3
+
+[bar/right]
+inherit = bar/common
+width = 400px 
+tray-position = left
+modules-right = volume date time
+offset-x = 100%:-412px
+
+[module/i3]
+type = internal/i3
+label-focused-foreground = ${col.sel}
+index-sort = true
+label-separator = " " 
+
+[module/time]
+type = internal/date
+interval = 15
+time = %H:%M
+label =  %time%
+
+[module/date]
+type = internal/date
+interval = 60
+date = %a %d %b
+label =  %date%
+
+[module/volume]
+type = internal/pulseaudio
+format-volume =  <label-volume>
+format-muted =  <label-volume>
+
+; vim: ft=dosini
