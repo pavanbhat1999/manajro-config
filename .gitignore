@@ -1,5 +1,6 @@
 Documents/
 Downloads/
+.config/*
 .anydesk/
 .Xauthority
 .cache/
