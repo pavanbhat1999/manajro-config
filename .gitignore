@@ -17,6 +17,7 @@ Downloads/
 !.config/sxiv/
 !.config/sxhkd/
 !.config/tmux/
+!.config/zathura
 .anydesk/
 .Xauthority
 .cache/
