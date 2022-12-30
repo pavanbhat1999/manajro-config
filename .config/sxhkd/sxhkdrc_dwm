@@ -27,7 +27,7 @@ super + shift + f
 super + n
     pcmanfm
 super + shift + n
-    sudo pcmanfm
+    nautilus
 super + shift + ctrl + l
     lock-suspend.sh
 XF86AudioRaiseVolume
