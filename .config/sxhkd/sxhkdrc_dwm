@@ -15,7 +15,7 @@ super + r
 super + d
     dmenu_run
 super + p
-    passmenu
+    passmenu -l 20
 super + v
     rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}' -font "Fira Code 18"
 alt + n
