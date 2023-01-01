@@ -11,5 +11,7 @@ do
                 ;;
         "C-w")
             nitrogen --save --set-zoom-fill "$file" ;;
+        "C-p")
+            wal -i "$file" ;;
     esac
 done

@@ -189,7 +189,7 @@ local makeDashboardBox = function(xval, yval, wval, hval)
         valign = "center",
         visible = false,
         shape = dashboardBoxshape,
-        bg = "#002731",
+        bg = "#141B37",
         opacity = 0.75,
     })
     box.type = "dock"

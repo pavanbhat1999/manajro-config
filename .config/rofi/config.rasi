@@ -9,3 +9,4 @@ configuration {
 }
 @import "/usr/share/rofi/themes/fancy.rasi"
 @theme "/usr/share/rofi/themes/DarkBlue.rasi"
+@import "~/.cache/wal/colors-rofi-dark"
