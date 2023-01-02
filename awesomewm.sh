@@ -60,7 +60,7 @@ greenclip daemon &
 xset s 180 120
 xss-lock --transfer-sleep-lock -- lock-suspend.sh &
 xautolock -time 15 -locker "systemctl suspend" -detectsleep &
-nm-applet &
+# nm-applet &
 dunst &
 #xfce4-power-manger &
 xsetroot -cursor_name left_ptr &
