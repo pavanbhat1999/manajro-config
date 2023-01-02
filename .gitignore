@@ -18,6 +18,7 @@ Downloads/
 !.config/sxhkd/
 !.config/tmux/
 !.config/zathura
+.cargo/
 .anydesk/
 .Xauthority
 .cache/

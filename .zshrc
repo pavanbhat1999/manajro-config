@@ -71,6 +71,7 @@ alias mpv='mpv --save-position-on-quit --slang=en,eng,english --volume=75'
 #export PATH=~/bin/CustomScripts:$PATH
 #export JDTLS_HOME=/home/root99/Downloads/jdtls
 
+# NOTE: npm npx nvm
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
