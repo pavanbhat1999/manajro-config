@@ -109,6 +109,9 @@ font-0 = FiraCodeMonoRegular:pixelsize=12;
 font-1 = HackNerdFont:pixelsize=12;
 font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
 font-3 = brave:style=Regular:pixelsize=16;
+font-4 = MesloLGS NF:style=Regular;
+; NOTE: Added extra fonts for backup if some icons dont work
+; font-4 = NotoSansMono Nerd Font:style=Regular
 ; font-3 = IPAGothic:fontformat=truetype:pixelsize=10:antialias=false;
 ; font-4 = siji:pixelsize=8;
 ;modules-left = apple bspwm

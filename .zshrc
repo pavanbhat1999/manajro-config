@@ -80,3 +80,9 @@ alias mpv='mpv --save-position-on-quit --slang=en,eng,english --volume=75'
 # . "${HOME}/.cache/wal/colors.sh"
 #
 # alias dmen='dmenu_run -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
+
+# NOTE: added to run a perlscript for font config
+# PATH="/home/root99/perl5/bin${PATH:+:${PATH}}"; export PATH;
+# PERL5LIB="/home/root99/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+# PERL_LOCAL_LIB_ROOT="/home/root99/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+# PERL_MB_OPT="--install_base \"/home/root99/perl5\""; export PERL_MB_OPT;
