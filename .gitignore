@@ -18,6 +18,10 @@ Downloads/
 !.config/sxhkd/
 !.config/tmux/
 !.config/zathura
+.cpan/
+.node_repl_history
+.wget-hsts
+perl5/
 .cargo/
 .anydesk/
 .Xauthority
